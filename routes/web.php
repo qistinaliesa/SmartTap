@@ -20,6 +20,9 @@ Route::get('/chartjs', function () {
 Route::get('/basic_elements', function () {
     return view('pages.basic_elements');
 })->name('form.elements');
+Route::get('/mdi', function () {
+    return view('pages.mdi');
+})->name('mdi');
 
 
 
