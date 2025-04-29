@@ -29,6 +29,7 @@
       <ul class="nav">
         <li class="nav-item sidebar-category">
           <p>Navigation</p>
+          <p>Navigation</p>
           <span></span>
         </li>
         <li class="nav-item">
