@@ -40,6 +40,7 @@
         </li>
         <li class="nav-item sidebar-category">
           <p>Components</p>
+          <p>test</p>
           <span></span>
         </li>
         <li class="nav-item">
