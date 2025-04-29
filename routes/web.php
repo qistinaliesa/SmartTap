@@ -23,6 +23,13 @@ Route::get('/basic_elements', function () {
 Route::get('/mdi', function () {
     return view('pages.mdi');
 })->name('mdi');
+Route::get('/buttons', function () {
+    return view('pages.buttons');
+})->name('buttons');
+
+Route::get('/typography', function () {
+    return view('pages.typography');
+})->name('typography');
 
 
 
