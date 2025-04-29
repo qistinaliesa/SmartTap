@@ -8,9 +8,12 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', [AdminController::class, 'dashboard']);
+
 Route::get('/basic-table', function () {
     return view('pages.basic-table');
 });
-Route::get('/admin', function () {
-    return view('admin.home');
+
+Route::get('/chartjs', function () {
+    return view('pages.chartjs');
 });
+
