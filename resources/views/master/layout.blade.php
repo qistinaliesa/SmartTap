@@ -321,7 +321,7 @@
 <!-- End custom js for this page-->
 <script src="{{ asset('js/chart.js') }}"></script>
 <script src="{{ asset('vendors/chart.js/Chart.min.js') }}"></script>
-
+<script src="../../js/file-upload.js"></script>
 </body>
 
 </html>
