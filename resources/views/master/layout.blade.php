@@ -58,24 +58,24 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/forms/basic_elements.html">
-            <i class="mdi mdi-view-headline menu-icon"></i>
-            <span class="menu-title">Form elements</span>
-          </a>
+            <a class="nav-link" href="{{ route('form.elements') }}">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Form elements</span>
+            </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('/chartjs') }}">
+            <a class="nav-link" href="{{ route('chartjs') }}">
+                <i class="mdi mdi-chart-pie menu-icon"></i>
+                <span class="menu-title">Charts</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('basic.table') }}">
+                <i class="mdi mdi-grid-large menu-icon"></i>
+                <span class="menu-title">Tables</span>
+            </a>
+        </li>
 
-            <i class="mdi mdi-chart-pie menu-icon"></i>
-            <span class="menu-title">Charts</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url('/basic-table') }}">
-            <i class="mdi mdi-grid-large menu-icon"></i>
-            <span class="menu-title">Tables</span>
-          </a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="pages/icons/mdi.html">
             <i class="mdi mdi-emoticon menu-icon"></i>
