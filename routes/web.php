@@ -4,7 +4,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
-    return view('admin.home');
+    return view('welcome');
 });
 
 Route::get('/admin', [AdminController::class, 'dashboard']);
+Route::get('/basic-table', function () {
+    return view('pages.basic-table');
+});
+Route::get('/admin', function () {
+    return view('admin.home');
+});
